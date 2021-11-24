@@ -1,0 +1,214 @@
+#top_nav{
+    background-color: #daac00;
+    padding: 1% 6%;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    padding-left: 30px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left:47px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border:0;
+    border-radius: 0;
+
+}
+
+
+@media only screen and (max-width:986px){
+    #searchform{
+        position: relative;
+        left:-20px;
+        margin: 10px 0;
+    }
+}
+
+#row1{
+    background-color: #fcc302;
+    height: 545px;
+
+    
+}
+
+#btn1{
+    background-color: brown;
+    color: burlywood;
+    margin-top: 20px;
+}
+
+#btn1:hover{
+    background-color:turquoise;
+    color: black;
+}
+
+#btn2:hover{
+    background-color:turquoise;
+    color: black;
+}
+
+
+#btn2{
+    background-color: brown;
+    color: burlywood;
+    margin-top: 20px;
+}
+
+
+#col1 h1{
+    color: white;
+    font-size: 65px;
+    margin-top: 100px;
+}
+
+
+#col1 p{
+    color: azure;
+    font-size: 30px;
+}
+
+#col2{
+    margin-top: 65px;
+}
+
+#col3{
+    color: steelblue;
+    font-size: medium;
+    margin-top:150px;
+}
+
+#col3 p{
+    font-size: 25px;
+    
+}
+
+#btn3{
+    background-color: brown;
+    color: burlywood;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:760px){
+
+#col3 {
+    color: steelblue;
+    font-size: medium;
+    margin-top: 150px;
+    margin-top: 400px;
+}
+
+}
+
+#col7{
+    margin-top: 40px;
+    
+}
+
+#col8{
+    margin-top: 40px;
+}
+
+#col9{
+    margin-top: 40px;
+}
+
+#row4{
+    background-color: #fcc302;
+    height: 250px;
+}
+
+#text1{
+    
+    color: teal;
+}
+
+#text2{
+    color: tomato;
+}
+
+#text3{
+    color: yellowgreen;
+}
+
+
+@media only screen and (max-width:760px){
+    #row4 {
+        background-color: #fcc302;
+        height: 500px
+
+}
+}
+
+#row6{
+    background-color: cadetblue;
+    padding: 40px;
+    
+}
+
+.article-detail{
+    border: 2px solid black;
+    border-radius: 2px;
+    
+}
+
+@media only screen and (max-width:752px){
+
+#row6 {
+    background-color: cadetblue;
+    
+}
+
+}
+
+#footer{
+    background-color:#343434;
+    padding: 40px;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#footer-search{
+    background-color: #fcc302;
+    padding:3px;
+    color:black;
+    border:0;
+}
+
+#footer-btn{
+    background-color: #00bec9;
+    position: relative;
+    right:2px;
+    border:0;
+    padding:3px;
+
+
+}
+
+.social-icon{
+    font-size: 25px;
+    color: azure;
+    
+}
